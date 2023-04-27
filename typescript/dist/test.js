@@ -11,7 +11,7 @@ console.log(age);
 var list = [1, 2, 3, 4]; //Arrays
 console.log(list);
 var num = []; //Creating empty array and inserting the number.
-num.push(5);
+num.push(5, 6);
 console.log(num);
 var tup = [1, "Hemthath"]; //tuples is used to store the collection of values of varied types.mehtods pop,push
 console.log(tup);
