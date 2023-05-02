@@ -1,4 +1,0 @@
-var a:string="hemthath"
-console.log(a);
-
-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
