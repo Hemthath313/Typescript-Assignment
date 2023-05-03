@@ -1,0 +1,16 @@
+
+<h2>child component</h2>
+<h3>welcome to our page {{name}}</h3>
+
+{{title}}   <!--interpolation-->
+
+<img [src]="imgpath">  <!--property binding-->
+
+<div>
+    <button (click)='title="angular"'>change</button>  <!--changing the content-->
+    <button (click)="add()">clickme</button>   <!--event binding here I used to click event-->
+</div>
+<hr>
+
+<app-login></app-login>
+
