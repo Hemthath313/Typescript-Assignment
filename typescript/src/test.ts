@@ -16,7 +16,7 @@ var list:number[]=[1,2,3,4];   //Arrays
 console.log(list)
 
 var num:number[]=[]  //Creating empty array and inserting the number.
-num.push(5);
+num.push(5,6);
 console.log(num);
 
 
