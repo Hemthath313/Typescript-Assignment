@@ -23,7 +23,7 @@ class Mineapp extends StatelessWidget {
                 child:Text("welcome you all"
                 ),
               ),
-              ),
+      ),
     );
   }
 }
