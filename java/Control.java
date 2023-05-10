@@ -30,7 +30,7 @@ class Robot implements Ai{
     }
 }
 
-public class control{
+public class Control{
     public static void main(String[]args){
         Robot robo=new Robot();
         robo.backward();

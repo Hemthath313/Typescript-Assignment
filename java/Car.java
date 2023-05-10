@@ -1,11 +1,11 @@
-public class car {     //class
+public class Car {     //class
     String model;
     int year;
     int mileage;
 
     // Constructor
 
-    public car( String model, int year, int mileage) {                
+    public Car( String model, int year, int mileage) {                
         this.model = model;
         this.year = year;
         this.mileage = mileage;
@@ -19,7 +19,7 @@ public class car {     //class
     }
 
     public static void main(String[] args) {
-        car myCar = new car("toyoto",2014,28);
+        Car myCar = new Car("toyoto",2014,28);
         myCar.display();
     }
     

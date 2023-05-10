@@ -1,4 +1,4 @@
-public class function {     //class
+public class Function {     //class
 
     public void area(int side) {                                  //created a two methods called area.
         System.out.println("Area of square: " + (side * side));
@@ -9,7 +9,7 @@ public class function {     //class
     }
 
     public static void main(String[] args) {
-        function shapes = new function();
+        Function shapes = new Function();
         shapes.area(5);                    //calling the methods
         shapes.area(4, 6); 
     }

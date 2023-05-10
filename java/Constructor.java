@@ -1,10 +1,10 @@
-public class constructor {
+public class Constructor {
     int empid;
      String name;
      int age;
 
     // Default constructor without parameters
-    public constructor() {
+    public Constructor() {
         empid = 15;
         name ="hemthath";
         age = 22;
@@ -12,7 +12,7 @@ public class constructor {
     
 
     public static void main(String[] args) {
-        constructor myObj = new constructor();
+        Constructor myObj = new Constructor();
         System.out.println("The employee id :"+ myObj.empid);
         System.out.println("The employe  name is : " + myObj.name);
         System.out.println("The employe age is: " + myObj.age);

@@ -15,7 +15,7 @@
         System.out.println("Salary: " + salary);
     }
 }
-public class access {
+public class Access {
     public static void main(String[] args) {
         Employee emp = new Employee("John", 30, 50000.0);
         emp.printDetails();

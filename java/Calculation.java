@@ -1,4 +1,4 @@
-class overload{
+class Overload{
     static int multiply (int a,int b){
         return a* b;
         
@@ -9,10 +9,10 @@ class overload{
     }
 }
 
-class calculation{
+class Calculation{
      public static void main(String[]args) {
-        System.out.println(overload.multiply(2,4));
-        System.out.println(overload.multiply(4,6,8));
+        System.out.println(Overload.multiply(2,4));
+        System.out.println(Overload.multiply(4,6,8));
         
     }
 }

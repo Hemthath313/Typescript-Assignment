@@ -1,4 +1,4 @@
-public class operators {
+public class Operators {
     public static void main(String[] args) {
       int sum1 = 100 + 50;   //Arithmetic operator
       int sum2 = sum1 * 20;

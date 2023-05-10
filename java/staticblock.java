@@ -1,4 +1,4 @@
-class staticblock{
+class Staticblock{
     static{
         System.out.print("hemthath");
     }
@@ -18,7 +18,7 @@ class staticblock{
     Test() { System.out.println("Constructor called"); }
 }
 // Main class
-class GFG {
+class Gf {
     public static void main(String args[])
     {
         Test t1 = new Test();
