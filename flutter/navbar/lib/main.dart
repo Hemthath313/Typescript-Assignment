@@ -17,6 +17,7 @@ class _MyWidgetState extends State<MyApp> {
     const Center(child: Text('Welcome to Home')),
     const Center(child: Text('Search Anything')),
     const Center(child: Text('Choose the Persons')),
+    const Center(child: Text('Turning on the camera')),
   ];
 
   int Index = 0;
@@ -45,6 +46,11 @@ class _MyWidgetState extends State<MyApp> {
             icon: Icon(Icons.person),
             label: 'Person',
             backgroundColor: Colors.red,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.camera),
+            label: 'camera',
+            backgroundColor: Colors.purpleAccent,
           ),
         ],
         onTap: (currentindex) {
