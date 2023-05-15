@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.LinkedList;
 
-public class linkedlLst {
+public class LinkedlLst {
 
 public static void main(String[]args){
 
