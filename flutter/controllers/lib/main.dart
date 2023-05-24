@@ -18,8 +18,6 @@ class MyApp extends StatelessWidget {
 }
 
 class TextFieldPage extends StatefulWidget {
-  
-
   @override
   State<TextFieldPage> createState() => _MyWidgetState();
 }
@@ -27,18 +25,6 @@ class TextFieldPage extends StatefulWidget {
 class _MyWidgetState extends State<TextFieldPage> {
   final TextEditingController _textEditingController = TextEditingController();
   String enteredText = '';
-
-  @override
-  void dispose() {
-    _textEditingController.dispose();
-    super.dispose();
-  }
-
-  void updateEnteredText(String newText) {
-    setState(() {
-      enteredText = newText;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -58,8 +44,8 @@ class _MyWidgetState extends State<TextFieldPage> {
             ),
             const SizedBox(height: 16),
             Text(
-               ' $enteredText',
-              style: const TextStyle(fontSize: 18),
+              ' $enteredText',
+              style: TextStyle(fontSize: 18),
             ),
           ],
         ),
@@ -67,7 +53,9 @@ class _MyWidgetState extends State<TextFieldPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           String text = _textEditingController.text;
-          updateEnteredText(text);
+          setState(() {
+            enteredText = text;
+          });
         },
         child: const Icon(Icons.check),
       ),
