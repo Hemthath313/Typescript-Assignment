@@ -68,7 +68,7 @@ class Thirdroute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Color.fromRGBO(171, 134, 23, 1),
       appBar: AppBar(
         title: const Text("Third page"),
       ),
